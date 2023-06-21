@@ -2,17 +2,75 @@
     padding: 2vh 5vw;
 }
 
+.book-detail-container >h2{
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+}
+
 
 .book-detail-container2{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    gap: 3em;
 }
 
 .book-detail-container2 > img{
     flex: 1;
     width: 20vw;
+    height: 60vh;
 }
 
 .book-detail-container2 > div{
     flex: 4;
+}
+
+
+
+.info-div > table > tr>td{
+    padding: 10px;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+
+.review{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.review > div{
+    margin-left: 20px;
+    width: 75%;
+    word-wrap: break-word;
+}
+
+.price-div{
+    margin-top: 5%;
+}
+
+.price-div > p{
+    margin-bottom: 10px;
+}
+
+.price-div > p > span{
+    margin: 10px;
+}
+
+.overline-price{
+    text-decoration: line-through;
+}
+
+.addtocart{
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: 800;
+    background-color: greenyellow;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.addtocart:hover{
+    background-color: rgb(99, 160, 8);
 }

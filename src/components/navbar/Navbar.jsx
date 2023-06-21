@@ -20,8 +20,10 @@ function Navbar() {
 
       <div className='page-navs'>
         <div className='page-links'>
-          <Link><p>Cart</p></Link>
-          <Link to='/bookmark'><p></p></Link>
+          <Link to='/cart'>
+            <img src="" alt="" />
+          </Link>
+          
         </div>
 
         <div className='profile-div'>
