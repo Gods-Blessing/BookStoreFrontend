@@ -1,0 +1,54 @@
+.home-main-container{
+    padding: 0% 2%;
+}
+
+.search-container{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-container > input{
+    padding: 10px;
+    width: 30vw;
+    font-weight: 700;
+    font-size: 1.2em;
+    border-radius: 20px 0px 0px 20px;
+    background-color: greenyellow;
+    border: none;
+}
+
+.search-container > input:focus{
+    outline: none;
+}
+
+.search-container > button{
+    padding: 10px;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    background-color: green;
+    font-weight: 700;
+}
+
+.listing-container{
+    display: flex;
+    gap: 2vw;
+}
+
+.aside-container{
+    flex: 1;
+    height: 50vh;
+    background-color: aqua;
+    display: none;
+}
+
+
+.books-container{
+    flex: 4;
+    padding: 10px 0px 10px 10px;
+    display: flex;
+    gap: 5vw;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /* background-color: blueviolet; */
+}

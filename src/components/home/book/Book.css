@@ -1,0 +1,24 @@
+.book{
+    padding: 30px 30px 10px 30px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.book-img{
+    height: 30vh;
+    transition: transform 0.5s ease-in-out ;
+    margin-bottom: 20px;
+}
+
+.book-img:hover{
+    transform: scale(1.2);
+}
+
+.mrp{
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+.real-price{
+    margin-left: 10px;
+}

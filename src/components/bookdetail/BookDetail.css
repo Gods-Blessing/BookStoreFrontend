@@ -1,0 +1,18 @@
+.book-detail-container{
+    padding: 2vh 5vw;
+}
+
+
+.book-detail-container2{
+    display: flex;
+    align-items: center;
+}
+
+.book-detail-container2 > img{
+    flex: 1;
+    width: 20vw;
+}
+
+.book-detail-container2 > div{
+    flex: 4;
+}
