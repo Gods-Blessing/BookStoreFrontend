@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 // importing image
 import hamburgerIcon from '../../assets/more.png';
 import cartIcon from '../../assets/cart.png'
+import BookIcon from '../../assets/open-book.png';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
@@ -14,6 +15,7 @@ function Navbar() {
     <nav>
       <div className='logo-container'>
         <Link to='/'>
+          <img src={BookIcon} alt="" />
           <h2>Bookish</h2>
         
         </Link>
