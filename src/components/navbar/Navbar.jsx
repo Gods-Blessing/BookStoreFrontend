@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 
 // importing image
 import hamburgerIcon from '../../assets/more.png';
+import cartIcon from '../../assets/cart.png'
 import { Link } from 'react-router-dom';
 
 function Navbar() {
@@ -20,8 +21,9 @@ function Navbar() {
 
       <div className='page-navs'>
         <div className='page-links'>
-          <Link to='/cart'>
-            <img src="" alt="" />
+          <Link className='cart-icon' to='/cart'>
+            <img src={cartIcon} alt="" />
+            <p>4</p>
           </Link>
           
         </div>

@@ -14,18 +14,35 @@ nav{
 
 .page-navs{
     display: flex;
-    /* background-color: green; */
     align-items: center;
 }
 
 .page-links{
     display: flex;
     gap: 6vw;
+    padding: 0px 2em;
 }
 
 .page-links>a{
     text-decoration: none;
     color: black;
+}
+
+.cart-icon {
+    position: relative;
+}
+
+.cart-icon > img{
+    height: 2em;
+}
+
+.cart-icon > p{
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    background-color: yellow;
+    border-radius: 50%;
+    padding: 5px 10px;
 }
 
 .page-links > a>p{
