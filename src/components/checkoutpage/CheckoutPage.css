@@ -25,7 +25,7 @@
     margin-bottom: 5vh;
 }
 
-.list-book > img{
+.list-book>a > img{
     width: 10vw;
     margin-bottom: 10px;
 }
@@ -50,6 +50,15 @@
     margin-bottom: 20px;
 }
 
+.remove-btn{
+    background-color: greenyellow;
+    padding: 10px;
+    font-weight: 700;
+    font-size: large;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 .total{
     background-color: rgba(13, 13, 13, 0.2);
     flex: 1;
@@ -63,6 +72,6 @@
 }
 
 .total > p{
-    margin-top: 20px;
+    margin: 20px;
 }
 

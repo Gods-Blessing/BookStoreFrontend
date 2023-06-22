@@ -7,7 +7,7 @@ function Book(){
 
     return(
         <div className='book'>
-            <Link>
+            <Link to='/detail/2'>
                 <img className='book-img' src="https://m.media-amazon.com/images/I/8150Xvi+XSL._AC_UF1000,1000_QL80_.jpg" alt="" />            
             </Link>
 

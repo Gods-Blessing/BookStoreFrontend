@@ -1,0 +1,21 @@
+.main-cart-container{
+    padding: 2em 5em;
+}
+
+.main-cart-container > ul{
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.main-cart-container > ul >li{
+    display: flex;
+    gap: 1em;
+    background-color: rgb(176, 176, 241);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cart-book >p {
+    margin: 10px;
+}
